@@ -8,9 +8,12 @@ export const useUserStore = defineStore('user', {
   actions: {
     login(user) {
       // 模拟登录请求
-      setTimeout(() => {
-        this.user = user;
-      }, 1000);
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          this.user = user;
+          resolve();
+        }, 1000);
+      });
     },
     logout() {
       this.user = null;

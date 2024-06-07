@@ -1,19 +1,10 @@
-<script setup >
-import {ref,reactive} from "vue"
-
-
-
+<script setup>
+import { ref, reactive } from "vue";
 
 </script>
 
 <template>
-  <div class="">
-    我是主页
-</div>
+  <div class="">我是主页</div>
+  
 </template>
-<style lang="scss" scoped>
-
-
-
-
-</style>
+<style lang="scss" scoped></style>
